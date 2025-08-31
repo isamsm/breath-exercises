@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Breath</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="titlebar">
+                    <span class="title"> Breath... </span>
+                    <div class="titlebar-buttons">
+                        <button onclick="minimizeWindow()">
+                            <img src="./assets/min.png" />
+                        </button>
+                        <button onclick="window.close()">
+                            <img src="./assets/close.png" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="initial-content">
+                    <button onclick="startBreath()" class="btn"> Começar </button>
+                    <div class="initial-img">
+                        <img width="200" src="./assets/off.png" />
+                    </div>
+                </div>
+
+                <div class="counting-content">
+                    <img width="300" src="./assets/on.gif" />
+                    <p> Inspire por <span> 3 </span>... </p>
+                </div>
+
+                <div class="breath-content">
+                    <img width="300" src="./assets/blow.gif" />
+                    <p> Expire </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
