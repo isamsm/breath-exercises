@@ -11,7 +11,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
-    }
+    },
   });
 
   win.loadFile("index.html");

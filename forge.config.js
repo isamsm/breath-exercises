@@ -4,7 +4,20 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
   packagerConfig: {
     asar: true,
+    icon: '/assets/icon' // no file extension required
   },
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'isa',
+          name: 'breath-app'
+        },
+        prerelease: true
+      }
+    }
+  ],
   rebuildConfig: {},
   makers: [
     {

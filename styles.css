@@ -11,7 +11,7 @@
     border: 10px solid rgba(196, 196, 196, 1);
 }
 
-.titlebar {
+.titlebar {    
   height: 48px;
   padding: 0 10px;
   background: rgba(55, 93, 166, 1);
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  -webkit-app-region: drag;
 }
 
 .title {
@@ -44,6 +45,7 @@
     background: rgba(196, 196, 196, 1);
     width: 35px;
     height: 34px;
+    -webkit-app-region: no-drag;
 }
 
 .initial-content {
