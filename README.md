@@ -9,7 +9,7 @@
 ### 1. Clonar o projeto em sua máquina:
 
 ```
-git clone https://github.com/isamsm/jogo-da-memoria](https://github.com/isamsm/breath-exercises/
+git clone https://github.com/isamsm/breath-exercises/
 ```
 
 ### 2. Rodar o projeto:
@@ -21,3 +21,4 @@ npm run start
 A janela com a aplicação será aberta. O executável também se encontra dentro da pasta out. 
 
 E pronto, dessa forma você já terá o projeto rodando em sua máquina!
+
