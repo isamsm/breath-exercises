@@ -6,7 +6,7 @@ const path = require("path");
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: path.resolve(__dirname, "assets", "icon.ico")
+    icon: path.resolve(__dirname, "assets", "breath.ico")
   },
   publishers: [
     {
